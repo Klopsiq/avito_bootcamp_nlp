@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "experiment": "D5",
+      "recall50": 0.8423367147777784,
+      "recall200": 0.9075887123777714
+    },
+    {
+      "experiment": "R2",
+      "recall50": 0.8359635770373497,
+      "recall200": 0.8954676657811179
+    },
+    {
+      "experiment": "D3",
+      "recall50": 0.8275241279001182,
+      "recall200": 0.8991008077831658
+    },
+    {
+      "experiment": "D2",
+      "recall50": 0.8103991217127973,
+      "recall200": 0.8846240597874976
+    }
+  ],
+  "winner": {
+    "experiment": "D5",
+    "recall50": 0.8423367147777784,
+    "recall200": 0.9075887123777714
+  },
+  "stages": {
+    "R2": "completed",
+    "D3": "completed",
+    "D4": "completed_keep_current",
+    "D5": "completed"
+  },
+  "all_experiments_completed": true
+}

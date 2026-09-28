@@ -1,0 +1,10 @@
+numpy==2.5.3
+pandas==3.0.6
+torch==2.11.0
+transformers==5.17.0
+scipy==1.18.1
+scikit-learn==1.9.1
+fastparquet==2026.9.0
+lightgbm==4.7.0
+snowballstemmer==3.1.1
+threadpoolctl==3.7.0

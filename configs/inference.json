@@ -1,0 +1,9 @@
+{
+  "lexical_transition_weight": 2.0,
+  "e5_weight": 1.0,
+  "ranker_weight": 1.0,
+  "trained_rubert_weight": 0.5,
+  "candidate_depth": 200,
+  "rrf_constant": 60,
+  "answer_sha256": "62adf643eb6ee88b81c8ee5d43c865960f81924bb8e79e77ad733a5d271e87f5"
+}

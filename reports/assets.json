@@ -1,0 +1,8 @@
+{
+  "archive": "avito-d5-assets.tar.gz",
+  "bytes": 828246877,
+  "sha256": "629d5813ccbe8ea9110c05690f99f6455de9a69b005b3ea95d323f828786df3c",
+  "files": 29,
+  "inventory_verified": true,
+  "scope": "benchmark item index and vectors; fitted full-corpus feature priors retained"
+}

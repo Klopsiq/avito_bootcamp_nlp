@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "independent_model_inference": true,
+  "external_api_calls": false,
+  "cached_query_predictions_used": false,
+  "rows": 2452,
+  "items_per_query": 50,
+  "byte_identical": true,
+  "answer_sha256": "62adf643eb6ee88b81c8ee5d43c865960f81924bb8e79e77ad733a5d271e87f5",
+  "python": "3.12",
+  "platform": "macOS ARM64",
+  "command": "OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python predict.py --data-dir data --assets assets --output answer.reproduced.csv",
+  "asset_scope": "benchmark-only vectors/index; full-corpus fitted IDF and location inventory preserved",
+  "compact_assets_reproduction": "passed; byte-identical CSV"
+}

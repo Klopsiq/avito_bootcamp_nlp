@@ -1,0 +1,92 @@
+{
+  "protocol_version": "protocol-v1",
+  "corpus": "expanded",
+  "query_count": 55428,
+  "evaluated_queries": 55428,
+  "excluded_queries": 0,
+  "known_positives": 75278,
+  "available_positives": 75278,
+  "query_coverage": 1.0,
+  "recall_at_10": 0.6643787882314943,
+  "recall_at_50": 0.8423367147777784,
+  "recall_at_100": 0.8805678460760716,
+  "recall_at_200": 0.9075887123777714,
+  "hit_at_50": 0.8577794616439345,
+  "ceiling_recall_at_50": 0.9999640771111992,
+  "text_balanced_recall_at_50": 0.8074490182735055,
+  "slices": {
+    "search_category": {
+      "0": {
+        "queries": 6,
+        "evaluated": 6,
+        "recall_at_50": 0.5
+      },
+      "114": {
+        "queries": 55422,
+        "evaluated": 55422,
+        "recall_at_50": 0.8423737762387266
+      }
+    },
+    "empty_filters": {
+      "False": {
+        "queries": 35826,
+        "evaluated": 35826,
+        "recall_at_50": 0.8391952061852035
+      },
+      "True": {
+        "queries": 19602,
+        "evaluated": 19602,
+        "recall_at_50": 0.8480783578161211
+      }
+    },
+    "text_length_slice": {
+      "0-10": {
+        "queries": 9268,
+        "evaluated": 9268,
+        "recall_at_50": 0.8387898518472701
+      },
+      "11-20": {
+        "queries": 28666,
+        "evaluated": 28666,
+        "recall_at_50": 0.8427991824479694
+      },
+      "21-40": {
+        "queries": 17088,
+        "evaluated": 17088,
+        "recall_at_50": 0.8441861959110906
+      },
+      "41+": {
+        "queries": 406,
+        "evaluated": 406,
+        "recall_at_50": 0.812807881773399
+      }
+    },
+    "positives_slice": {
+      "1": {
+        "queries": 46646,
+        "evaluated": 46646,
+        "recall_at_50": 0.8400077177035544
+      },
+      "2": {
+        "queries": 5367,
+        "evaluated": 5367,
+        "recall_at_50": 0.8632383081796162
+      },
+      "3-5": {
+        "queries": 2620,
+        "evaluated": 2620,
+        "recall_at_50": 0.8562786259541985
+      },
+      "51+": {
+        "queries": 8,
+        "evaluated": 8,
+        "recall_at_50": 0.20602786582469246
+      },
+      "6-50": {
+        "queries": 787,
+        "evaluated": 787,
+        "recall_at_50": 0.797892253845116
+      }
+    }
+  }
+}

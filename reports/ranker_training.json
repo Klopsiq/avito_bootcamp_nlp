@@ -1,0 +1,43 @@
+{
+  "features": [
+    "reciprocal_rank",
+    "fusion_score",
+    "bm25_score",
+    "idf_coverage",
+    "exact_location",
+    "log_distance_km",
+    "has_distance",
+    "query_terms",
+    "log_location_inventory",
+    "cosine",
+    "lexical_rr",
+    "semantic_rr",
+    "title_coverage",
+    "parameter_coverage",
+    "number_coverage",
+    "log_rating_reviews",
+    "rating",
+    "explicit_rating_match",
+    "cosine_exact_location",
+    "cosine_idf_coverage"
+  ],
+  "train_groups": 5000,
+  "fitted_groups": 4461,
+  "rows": 673831,
+  "positives": 4681,
+  "positive_injection": false,
+  "dev_labels_used": false,
+  "trees": 160,
+  "leaves": 15,
+  "max_retrieved_negatives": 150,
+  "train_keys_sha256": "81719ba9d4b7279049d4868e34136cf0f4f9c67287ee397ce0f4c02b482cdaa3",
+  "model_sha256": {
+    "config.json": "69137736cab8b8903a07fe8afaafdda25aac55415a12a55d1bffa9f581abf959",
+    "model.safetensors": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+    "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+    "tokenizer_config.json": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+    "special_tokens_map.json": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7",
+    "sentencepiece.bpe.model": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+  },
+  "seconds": 230.33451124999556
+}

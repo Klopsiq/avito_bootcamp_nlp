@@ -1,0 +1,12 @@
+assets/
+data/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+.env*
+*kaggle.json
+*access_token*
+*.log
+*.tar.gz
+answer.reproduced.csv

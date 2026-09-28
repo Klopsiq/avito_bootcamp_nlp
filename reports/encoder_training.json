@@ -1,0 +1,27 @@
+{
+  "optimizer_steps": 3834,
+  "epochs_completed": 2,
+  "contexts_processed": 490596,
+  "stop_reason": "epochs_complete",
+  "total_training_wall_seconds": 2218.901749832,
+  "learning_rate": 0.0,
+  "batch_size": 128,
+  "trainable_parameters": 29193768,
+  "cuda_peak_gb": 2.8122100830078125,
+  "model_source": "cointegrated/rubert-tiny2",
+  "model_revision": "e8ed3b0",
+  "transformation": {
+    "version": 1,
+    "query": "remove exactly one leading query: ",
+    "passage": "remove exactly one leading passage: ",
+    "max_length": 64,
+    "passage_fields": "existing title + params[:512] + description[:1024]",
+    "query_fields": [
+      "search_query"
+    ],
+    "pooling": "attention-masked mean float32 + L2",
+    "projection": "none; native encoder hidden dimension",
+    "training_scope": "all existing train contexts; no dev/holdout/benchmark query files",
+    "geography": "existing global + same-location negatives; geo bias disabled"
+  }
+}
